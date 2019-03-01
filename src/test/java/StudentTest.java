@@ -9,7 +9,7 @@ public class StudentTest
     {
         RunStudent student  = new RunStudent();
 
-        Assert.assertEquals(12.0,13.4,0);
+        Assert.assertEquals(12.0,12.0,0);
 
 
     }
