@@ -58,14 +58,7 @@ public class RunStudent
         totalLoanAmount= under+post+small;
 
 
-        /*System.out.printf("\n\tThe average interest for undergard is: %.2f ", average );
-
-        System.out.printf("\n\tThe average interest for post grad is: %.2f ", average1 );
-
-        System.out.printf("\n\tThe average interest for small business is: %.2f ",average2);
-
-        System.out.printf("\nThe average interest is: %.2f",totalLoanAmount/loan.size());
-        */
+        
 
         loan.set(0, new PostGrad("taylor", "2B", 12.00));
         loan.set(1, new UnderGrad("Lokombe", "214291324", 12.00));
