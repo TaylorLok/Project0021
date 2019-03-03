@@ -1,6 +1,7 @@
 public class PostGrad extends Student
 {
-    public PostGrad(String name, String StudNum, double LoanAmount) {
+    public PostGrad(String name, String StudNum, double LoanAmount)
+    {
         super(name, StudNum, LoanAmount);
 
     }

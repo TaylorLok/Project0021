@@ -41,7 +41,8 @@ public class RunStudent
                 k++;
 
             }
-            else if (loan.get(i)instanceof SmallBusiness){
+            else if (loan.get(i)instanceof SmallBusiness)
+            {
 
                 small += loan.get(i).Interest();
                 l++;
@@ -58,7 +59,7 @@ public class RunStudent
         totalLoanAmount= under+post+small;
 
 
-        
+
 
         loan.set(0, new PostGrad("taylor", "2B", 12.00));
         loan.set(1, new UnderGrad("Lokombe", "214291324", 12.00));
