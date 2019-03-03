@@ -1,5 +1,3 @@
-import java.util.HashMap;
-import java.util.Map;
 
 public abstract class Student implements LoanInterface
 {
@@ -19,22 +17,6 @@ public abstract class Student implements LoanInterface
     public double getLoanAmount()
     {
         return LoanAmount;
-    }
-
-    public void setMap()
-    {
-        Map<Integer,String> map = new HashMap<>();
-
-        map.put(1,"SA");
-        map.put(5,"USA");
-        map.put(6,"ZAR");
-        map.put(2,"Kenya");
-        map.put(3,"CONGO");
-        map.put(4,"Egypt");
-        this.map = map;
-    }
-    public  void getMap() {
-        return ;
     }
 
     @Override
