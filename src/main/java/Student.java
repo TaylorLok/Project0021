@@ -4,7 +4,7 @@ public abstract class Student implements LoanInterface
     private String name;
     private String StudNum;
     private double LoanAmount;
-    private Object map;
+   // private Object map;
 
     public Student(String name, String StudNum, double LoanAmount)
     {
