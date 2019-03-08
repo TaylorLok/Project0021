@@ -13,6 +13,10 @@ public abstract class Student implements LoanInterface
         this.LoanAmount = LoanAmount;
     }
 
+    public Student() {
+        super();
+    }
+
 
     public double getLoanAmount()
     {
